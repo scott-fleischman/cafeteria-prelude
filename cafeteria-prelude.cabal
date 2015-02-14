@@ -1,6 +1,14 @@
 name:                cafeteria-prelude
+category:            Prelude
 version:             0.1.0.0
+license:             MIT
+cabal-version:       >=1.10
+license-file:        LICENSE
+author:              Scott Fleischman
+maintainer:          scott.fleischman@logos.com
+homepage:            https://github.com/Scott-Fleischman/cafeteria-prelude
 synopsis:            Prelude subsets—take only what you want!
+build-type:          Simple
 description:
   This package contains many subsets of the Prelude allowing you to take only what you need.
   .
@@ -12,14 +20,9 @@ extra-source-files:
   LICENSE
   README.md
 
-homepage:            https://github.com/Scott-Fleischman/cafeteria-prelude
-license:             MIT
-license-file:        LICENSE
-author:              Scott Fleischman
-maintainer:          scott.fleischman@logos.com
-category:            Prelude
-build-type:          Simple
-cabal-version:       >=1.10
+source-repository head
+  type:     git
+  location: git://github.com/scott-fleischman/cafeteria-prelude.git
 
 library
   exposed-modules:
